@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fridays</title>
+        <link rel="stylesheet" href="Css/css.css">
+        <script src="js/Js.js"></script>
+    </head>
+
+    <body onload="timeUntilFriday()">
+
+        <div class="amountDays">
+            <p id="nextFriday">-_-</p>
+            <p id="amountDays">-_-</p>
+        </div>
+
+        <article class="clock">
+
+            <div class="days-container absolute position0">
+                <div id="days" class="days absolute defaultTrans"></div>
+            </div>
+
+            <div class="hours-container absolute position0">
+                <div id="hours" class="hours absolute defaultTrans"></div>
+            </div>
+
+            <div class="minutes-container absolute position0">
+                <div id="minutes" class="minutes absolute defaultTrans"></div>
+            </div>
+
+            <div class="seconds-container absolute position0">
+                <div id="seconds" class="seconds absolute defaultTrans"></div>
+            </div>
+
+            <div class="middle absolute defaultTrans"><span id="daysToFriday">7</span></div>
+
+        </article>
+
+    </body>
+</html>
